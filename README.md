@@ -1,5 +1,6 @@
 ## Gerar o .jar
-sudo ./mvnw package && java -jar target/demo-0.1.0.jar
+cd demo
+./mvnw package && java -jar target/demo-0.0.1-SNAPSHOT.jar
 
 ## Buildar a imagem docker
 docker build -t demo-java-docker .
